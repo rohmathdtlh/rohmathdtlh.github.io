@@ -86,45 +86,49 @@
   </head>
   <body>
     <!-- Navbar -->
- <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background-color: #201658;">
-    <div class="container">
-      <a class="navbar-brand" href="#">Rohmat Hidayatulloh</a>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav ms-auto">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-          <a class="nav-link active" href="#1">About</a>
-          <a class="nav-link active" href="#2">Project</a>
-          <a class="nav-link active" href="#3">Contact</a>
-          <a class="nav-link active" href="https://wa.me/1234567890" target="_blank">WhatsApp</a> <!-- Ganti 1234567890 dengan nomor WhatsApp Anda -->
+    <nav class="navbar navbar-expand-lg navbar-dark shadow-sm" style="background-color: #201658; position: fixed; width: 100%; z-index: 1000;">
+      <div class="container">
+        <a class="navbar-brand" href="#">Rohmat Hidayatulloh</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link active" aria-current="page" href="#">Home</a>
+            <a class="nav-link active" href="#1">Education</a>
+            <a class="nav-link active" href="#2">Skills</a>
+            <a class="nav-link active" href="#3">Servis & My Projek</a>
+            <a class="nav-link active" href="#4">Contact</a>
+            <a class="nav-link active" href="https://wa.me/1234567890" target="_blank">WhatsApp</a>
+          </div>
         </div>
       </div>
-    </div>
-  </nav>
-
+    </nav>
+    
     <!-- Akhir Navbar -->
 
     <!-- Jumbotron -->
 
-    <section class="jumbotron text-center" style="height: 80vh;">
+    <section class="jumbotron text-center" style="height: 100vh;">
       <div class="container">
-        <div class="row">
+        <div class="row mt-5">
           <div class="col">
             <img src="img/praktikum.png" alt="Rohmat Hidayatulloh" style="height: 200px; width: 200px" class="rounded-circle img-thumbnail"/>
-            <h1 class="display-4">Rohmat Hidayatulloh</h1>
-            <p class="lead"> "Grow like a sturdy tree, its roots are strong, its branches tower high, and its leaves are soothing." </p>
+            <h2 class="mt-3">Welcome to my profile! I am Rohmat Hidayatulloh</h2>
           </div>
         </div>
         <div class="col-md-8 offset-md-2 text-center">
-          <p>Welcome to my profile! I am Rohmat Hidayatulloh, a student studying in the field of Software Engineering Technology. I have a great passion for exploring the world of technology and contributing to building innovative software solutions.</p>
+          <p>Software Engineering Technology student, I have deep interest in UI/UX and
+            web development. I've always been passionate about creating intuitive and aesthetic user interfaces, as well
+            develop responsive and functional web applications. During my studies, I have developed skills in
+            UI/UX design using various design tools and prototypes, as well as mastering web development technology
+            such as HTML, CSS, JavaScript, and related frameworks.</p>
         </div>
       </div>
     </section>
     <!-- Akhir jumbotron -->
 
- <section>
+ <section id="1">
   <div class="container">
     <div class="row">
       <div class="col">
@@ -169,7 +173,7 @@
   </section>   
 
 
-  <section class="Skills">
+  <section class="Skills" id="2">
     <div class="container">
       <div class="row">
         <div class="col-md" style="height: 100vh">
@@ -256,7 +260,7 @@
     </div>
   </section>
 
- <section class="pr">
+ <section id="3">
   <div class="container">
     <div class="row">
       <div class="col">
@@ -326,7 +330,7 @@
 <!-- Akhir Project -->
 
     <!-- Contact -->
-  <section id="contact" style="background-color: #98abee;">
+  <section class="contact" id="4" style="background-color: #98abee;">
   <div class="container">
     <div class="row text-center" data-aos="fade-up" data-aos-duration="1000">
       <div class="col">
@@ -357,10 +361,40 @@
     <!-- Akhir Contact -->
 
     <!-- Footer -->
-    <footer class="text-white text-center p-3" style="position: relative; background-color: #201658;"><p> Created <a href="https://www.instagram.com/rohmat.h49/" class="text-white fw-bold"> Rohmat Hidayatulloh</a> <i class="bi bi-heart-fill"></i> </p>
+    <footer class="text-white text-center p-4" style="background-color: #201658;">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4">
+            <h4>Address</h4>
+            <p>Jl. Cendana No.61RT.02/RW.08, Loji, Kec. Bogor Barat, Kota Bogor, Jawa Barat 16117</p>
+          </div>
+          <div class="col-md-4">
+            <h4>Phone</h4>
+            <p>+6285810712008</p>
+          </div>
+          <div class="col-md-4">
+            <h4>Email</h4>
+            <p>rohmatdop@gmail.com</p>
+          </div>
+        </div>
+        <div class="row mt-4">
+          <div class="col">
+            <h4>Follow me</h4>
+            <a href="https://www.instagram.com/rohmat.h49/" class="text-white fw-bold m-2" style="text-decoration: none;">
+              <i class="bi bi-instagram" style="font-size: 24px;"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/your-linkedin-profile" class="text-white fw-bold m-2" style="text-decoration: none;">
+              <i class="bi bi-linkedin" style="font-size: 24px;"></i>
+            </a>
+            <a href="https://www.facebook.com/your-facebook-profile" class="text-white fw-bold m-2" style="text-decoration: none;">
+              <i class="bi bi-facebook" style="font-size: 24px;"></i>
+            </a>
+          </div>
+        </div>
+      </div>
     </footer>
     
-
+       
     <!-- Akhir footer -->
     <!-- Optional JavaScript; choose one of the two! -->
 
